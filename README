@@ -4,6 +4,13 @@ Secure Storage and Access Framework
 Service Computing Platform Security Engine
 Vibhaj Rajan <vibhaj8@gmail.com>
 
-Acknwledgements :
+Built on FireSpark <https://github.com/tr4n2uil/firespark>
+
+Concepts:
 	Key Chain Web +
 	Application Layer Security
+
+Acknowledgments :
+	Javascript Base64 MD5:
+		http://pajhome.org.uk/crypt/md5/
+	
