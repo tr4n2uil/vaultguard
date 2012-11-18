@@ -1,1 +1,0 @@
-/** *	@helper DataXor * *	@param data *	@param key * *	@author Vibhaj Rajan <vibhaj8@gmail.com> ***/VaultGuard.core.helper.dataXor = function($data, $key){	var $memory = Snowblozm.Kernel.run({		service: VaultGuard.core.service.SecureSalt,		data: $data,		key: $key || false	}, {});		if($memory['valid'])		return $memory['result'] || false;	else		return $data;}

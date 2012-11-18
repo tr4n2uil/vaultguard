@@ -16,6 +16,10 @@ echo Building core ...
 cd core
 for /r %%f in (*.js) do (type "%%f") >> ..\dev\jquery-vaultguard.js
 
+echo Building secure ...
+cd secure
+for /r %%f in (*.js) do (type "%%f") >> ..\dev\jquery-vaultguard.js
+
 echo Building config ...
 cd ..
 type config.js >> dev\jquery-vaultguard.js

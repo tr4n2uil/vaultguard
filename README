@@ -11,6 +11,9 @@ Concepts:
 	Application Layer Security
 
 Acknowledgments :
-	Javascript Base64 MD5:
+	Javascript MD5:
 		http://pajhome.org.uk/crypt/md5/
+	
+	jQuery Base64
+		https://github.com/carlo/jquery-base64
 	
